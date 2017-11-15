@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +7,8 @@
 
 html{
   background: #000;
+  color: #fff;
+  font-family: helvetica, sans-serif;
 }
 
 .nav{
@@ -13,6 +16,28 @@ html{
 }
 .nav img{
   float: left;
+  height: 5vh;
+  transform: rotate(55deg);
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.strangelove{
+  float: left;
+  font-family: 'Bowlby One SC', cursive;
+  color: #e63616;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  padding-left: 9px;
+  line-height: 2.6;
+}
+.nav ul {
+  list-style: none;
+}
+.nav li{
+  text-transform: uppercase;
+  float: right;
+  padding-right: 20px;
+  padding-top: 1.7vh;
 }
 .hero{
   background-image: url("../img/hero.jpg");
