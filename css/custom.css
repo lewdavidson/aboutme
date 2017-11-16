@@ -49,10 +49,12 @@ ul {
   padding-right: 20px;
   padding-top: 1.7vh;
 }
+.nav li:hover {
+  color: #e6361666;
+}
 .hero{
-  background-image: url("../img/hero.jpg");
+  background: linear-gradient(#020202ee, transparent, #020202ee), url("../img/hero.jpg") no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center center;
   height: 40vh;
 }
@@ -101,6 +103,9 @@ p{
 .col-right{
   float: right;
   width: 50%;
+}
+.col-right li img:hover {
+  opacity: 0.5;
 }
 .photo {
   width: 100px;
